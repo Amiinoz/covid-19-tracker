@@ -19,14 +19,13 @@ Building React app to track covid 19 cases around the world
 
 ## Front-end
 * [x] install material ui
-* []
-* []
+* [x] Cards
+
 
 
 ## Back-end
 * [x] setup api call function
-* []
-* []
+
 
 ## Deploy
 
