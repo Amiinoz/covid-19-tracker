@@ -20,6 +20,8 @@ Building React app to track covid 19 cases around the world
 ## Front-end
 * [x] install material ui
 * [x] Cards
+* [] Charts
+* [] Country Picker
 
 
 
@@ -30,8 +32,8 @@ Building React app to track covid 19 cases around the world
 ## Deploy
 
  * ✅
-  * [ ]
-  * [ ]
+  * []
+  * []
 
 ## Improvements
 * []
