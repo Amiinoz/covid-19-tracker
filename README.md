@@ -16,24 +16,17 @@ Building React app to track covid 19 cases around the world
     * [x] react-countup
     * [x] classnames
 * [x] project structure
-* []
-
-
-
-
 
 ## Front-end
-* []
+* [x] install material ui
 * []
 * []
 
 
 ## Back-end
+* [x] setup api call function
 * []
 * []
-* []
-
-
 
 ## Deploy
 
