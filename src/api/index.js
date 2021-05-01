@@ -29,6 +29,7 @@ const url = "https://covid19.mathdro.id/api";
 //   } catch (error) {}
 // };
 
+// Fetching data
 export const fetchData = async () => {
   try {
     const {
@@ -40,5 +41,42 @@ export const fetchData = async () => {
     return modifiedData;
 
     // console.log(res);
-  } catch (error) {}
+  } catch (error) {
+    return error;
+  }
+};
+
+// Fetching daily data globally
+// export const fetchDailyData = async () => {
+//   try {
+//     const { data } = await axios.get(`${url}/daily`);
+
+//     // console.log(data);
+
+//     const modifiedData = data.map((dailyData) => ({
+//       confirmed: dailyData.confirmed.total,
+//       deaths: dailyData.deaths.total,
+//       date: dailyData.reportDate,
+//     }));
+
+//     return modifiedData;
+//   } catch (error) {}
+// };
+
+// Fetching daily data ( find api for Canada Only)
+export const fetchDailyData = async () => {
+  try {
+    const { data } = await axios.get(
+      "https://api.covidtracking.com/v1/us/daily.json"
+    );
+
+    return data.map(({ positive, recovered, death, dateChecked: date }) => ({
+      confirmed: positive,
+      recovered,
+      deaths: death,
+      date,
+    }));
+  } catch (error) {
+    return error;
+  }
 };
