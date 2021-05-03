@@ -1,5 +1,23 @@
-body{
-  background-color: rgba(250, 250, 250);
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(221, 238, 238, 0.83),
+      rgba(250, 250, 247, 0.83)
+    ),
+    url("assets/background.jpg");
+  background-size: cover;
+  padding: 20px;
+  color: transparent;
+  letter-spacing: 0.2rem;
+  transition: all 0.2s;
 }
 
 .container {
@@ -7,4 +25,19 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.Logo {
+  width: 370px;
+  margin-top: 50px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .Logo {
+    width: 100%;
+  }
 }
