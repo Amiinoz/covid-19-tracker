@@ -2,8 +2,7 @@
 
 Covid 19 tracker
 
-
-<!-- ![example-site](example-site.gif) -->
+https://covid-19-globaltracker.netlify.app/
 
 ## Objectives
 Building React app to track covid 19 cases around the world
