@@ -1,38 +1,162 @@
-# Covid-19-tracker
+<div align="center">
 
-Covid 19 tracker
+<!-- project logo  -->
+ <img src="/src/assets/logo.png">
 
-https://covid-19-globaltracker.netlify.app/
+</div>
 
-## Objectives
+<h1 align="center">Covid Tracker</h1>
+
+ <p align="center">
+ 	<!-- tagline or very short intro of your project -->
+   Web app
+    <br />
+	 <!-- live demo link -->
+    <a href="https://covid-19-globaltracker.netlify.app/">View Demo</a>
+    ·
+	<!-- issue link here -->
+    <a href="https://github.com/Amiinoz/covid-19-tracker/issues">Report Bug</a>
+    ·
+	<!--  issue/discussion link -->
+    <a href="https://github.com/Amiinoz/covid-19-tracker/discussions/1">Request Feature</a>
+  </p>
+
+<div align="center">
+
+
+<!-- Use Shields website (link in acknowledgement section) to generate these for your repo or just replace the links here with yours -->
+
+![Version](https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)]( https://favetees.netlify.app/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
+
+
+</div>
+
+<hr />
+<br />
+
+<div align="center">
+
+<!-- Add your project demo gif here -->
+
+![Project Demo Gif](/src/assets/covid.gif)
+
+</div>
+
+
+
+
+<hr />
+
+
+
+## 🎯 Objective
+
 Building React app to track covid 19 cases around the world
 
-## Initial setup
-* [x] Initialize the project
-* [x] install dependencies
-    * [x] axios
-    * [x] react-chartjs-2
-    * [x] react-countup
-    * [x] classnames
-* [x] project structure
 
-## Front-end
-* [x] install material ui
-* [x] Cards
-* [x] Charts
-* [x] Country Picker
+## 💡 Features
 
 
-## Back-end
-* [x] setup api call function
+- Cards
+- Charts
+- Country Picker
 
 
-## Deploy
+## ⛏️ Built with
 
- * ✅
-  * [x] Deploy to netlify
+- axios
+- react-chartjs-2
+- react-countup
+- material-ui
+- api call
+
+
+## ⚙️ How I worked on this project
+My goal was to simulate a professional work environment.
+-  I built this app based on Adobe XD designs: [Screenshot of designs](/src/assets/localhost_files/covidxd.png)
+- I worked with tasks on a Trello board: [Screenshot of tasks](/src/assets/trello.png)
 
 
 
+## 🏁 Getting Started
+
+These instructions will help you to setup your own copy of Favetees project on your local machine for development and testing purposes.
 
 
+### 🧰Installation
+
+Step by step methods to guide the reader how to setup local dev environment for eg:
+
+1. Clone this repo
+1. Install all the dependencies
+
+    ```bash
+    npm install
+    ```
+
+1. Tweak the code
+1. Run on local server
+
+    ```bash
+    npm start
+    ```
+
+## 🚀Deployment
+
+Fallow these steps to deploy
+
+1. Create a new repo
+2. Push your code to github
+3. Build your project
+4. Create account on Netlify
+5. Add Your New Site
+6. Link to Your GitHub
+7. Authorize Netlify
+8. Select Your Repo
+9. Configure Your Settings
+10. Build Your Site
+11. eh! walaaa, you all done
+
+
+## 📝Todo
+
+List all the things you plan to do next in this project or list any known issue or bug which needs to be fixed. But why this is needed..? This will help the contributors like how they can contribute to this project and also when you open this project next time to work you will exactly know what has to be done for eg:
+
+-   Add logout button
+-   Add search functionality
+
+## 📈Future Plans
+
+List all the future plans:
+
+-   None for now
+
+## 🎈Usage
+
+This project could be used as eCommerce starting template
+
+## 👤 Author
+
+
+* Website: [momagan.com](https://www.momagan.com)
+* Twitter: [@dev_mos](httmps:\/\/www.twitter.com\/@dev\_mos)
+* Github: [@Amiinoz](https://github.com/Amiinoz)
+* LinkedIn:[momagan](https://linkedin.com/in/Mo)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+[ Support me ](https://www.patreon.com/Amiinoz)
+
+
+***
+Made with ❤️ by [Mo Magan](https://www.momagan.com)
