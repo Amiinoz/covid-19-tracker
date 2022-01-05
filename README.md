@@ -120,18 +120,6 @@ Fallow these steps to deploy
 11. eh! walaaa, you all done
 
 
-## 📝Todo
-
-List all the things you plan to do next in this project or list any known issue or bug which needs to be fixed. But why this is needed..? This will help the contributors like how they can contribute to this project and also when you open this project next time to work you will exactly know what has to be done for eg:
-
--   Add logout button
--   Add search functionality
-
-## 📈Future Plans
-
-List all the future plans:
-
--   None for now
 
 ## 🎈Usage
 
