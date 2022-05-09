@@ -138,13 +138,5 @@ This project could be used as eCommerce starting template
 Contributions, issues and feature requests are welcome!
 
 
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-[ Support me ](https://www.patreon.com/Amiinoz)
-
-
 ***
 Made with ❤️ by [Mo Magan](https://www.momagan.com)
